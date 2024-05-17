@@ -3,7 +3,7 @@
 > 
 > Seja minimamente inteligente e use o código disposto para ESTUDAR, analisar partes específicas e modificar.
 
-> [!WARN]
+> [!WARNING]
 > Em caso de plágio identificado, seu trabalho receberá nota 0 e, tendo em vista que este equivale a 40% da nota, será impossível reverter a reprovação na matéria.
 
 ## Exercícios
