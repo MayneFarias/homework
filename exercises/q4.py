@@ -55,7 +55,7 @@ def consultar_livro():
 
 def remover_livro():
     while True:
-        id_livro_para_remover = int(input("Digite o ID do livro que quer remover ou clique 0 para voltar ao menu: "))
+        id_livro_para_remover = int(input("Digite o ID do livro que quer remover ou digite 0 para voltar ao menu: "))
         if id_livro_para_remover == 0:
             break
         for livro in lista_livro:
