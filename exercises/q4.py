@@ -13,13 +13,12 @@ def cadastrar_livro(id):
 
 
 def consultar_livro():
-    print("\nConsultar Livro:")
-    print("1. Consultar Todos")
-    print("2. Consultar por Id")
-    print("3. Consultar por Autor")
-    print("4. Retornar ao menu")
     while True:
-        opcao = 0
+        print("Consultar Livro:")
+        print("1. Consultar Todos")
+        print("2. Consultar por Id")
+        print("3. Consultar por Autor")
+        print("4. Retornar ao menu")
         opcao = int(input("Escolha uma opção: "))
         if opcao == 1:
             for livro in lista_livro:
@@ -28,17 +27,17 @@ def consultar_livro():
                       f"| Autor: {livro['autor']} "
                       f"| Editora: {livro['editora']} ]\n")
         elif opcao == 2:
-                id_consulta = int(input("Digite o ID do livro desejado: "))
-                for livro in lista_livro:
-                    if livro['id'] == id_consulta:
-                        print(f"Livro: [ Nome: {livro['nome']} "
-                              f"| ID: {livro['id']} "
-                              f"| Autor: {livro['autor']} "
-                              f"| Editora: {livro['editora']} ]\n")
-                        break
-                else:
-                    print("Livro não encontrado.")
+            id_consulta = int(input("Digite o ID do livro desejado: "))
+            for livro in lista_livro:
+                if livro['id'] == id_consulta:
+                    print(f"Livro: [ Nome: {livro['nome']} "
+                          f"| ID: {livro['id']} "
+                          f"| Autor: {livro['autor']} "
+                          f"| Editora: {livro['editora']} ]\n")
                     break
+            else:
+                print("Livro não encontrado.")
+                break
         elif opcao == 3:
             autor_consulta = input("Digite o nome do autor desejado: ")
             for livro in lista_livro:
@@ -79,10 +78,13 @@ while True:
     escolha_menu_principal = int(input("Escolha uma opção: "))
 
     if escolha_menu_principal == 1:
+        print("")
         cadastrar_livro(id_global + 1)
     elif escolha_menu_principal == 2:
+        print("")
         consultar_livro()
     elif escolha_menu_principal == 3:
+        print("")
         remover_livro()
     elif escolha_menu_principal == 4:
         print("Encerrando o programa.")
