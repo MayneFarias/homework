@@ -10,7 +10,7 @@
 
 A entrega do trabalho deve ser feita a partir de uma versão modificada do arquivo original de proposta do trabalho (`MODULO A de 2024 - Logica de Programacao e Algoritmos.docx`). O arquivo em questão está disponível na **Aula 8**.
 
-É recomendável usar a versão web do Word (disponível em `office.com`) para modificar o arquivo.
+É recomendável usar a versão web do Word (disponível [aqui](https://office.com)) para modificar o arquivo.
 
 **1. Nome do arquivo:**
 - Em primeiro lugar, modifique o nome do arquivo para `MODULO A de 2024 - Logica de Programacao e Algoritmos - Seu Nome Completo.docx`
