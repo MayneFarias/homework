@@ -12,5 +12,5 @@
 |-----------|------------------------------------------------------------------------------------|
 | Questão 1 | [`exercises/q1.py`](https://github.com/avila-r/homework/blob/main/exercises/q1.py) |
 | Questão 2 | [`exercises/q2.py`](https://github.com/avila-r/homework/blob/main/exercises/q2.py) |
-| Questão 3 | Indisponível                                                                       |
+| Questão 3 | [`exercises/q3.py`](https://github.com/avila-r/homework/blob/main/exercises/q3.py) |
 | Questão 4 | Indisponível                                                                       | 
